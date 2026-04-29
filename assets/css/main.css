@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,27 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* --- Nathaniel Hook Music Custom Styling --- */
+
+.music-container {
+	margin: 2rem 0;
+	border-radius: 12px;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.05);
+}
+
+#header .inner p {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 0.7rem;
+}
+
+h1, h2, h3 {
+	letter-spacing: 0.3rem !important;
+}
+
+#bg:after {
+	background-image: radial-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), 
+					  url("../../images/overlay.png");
+}
