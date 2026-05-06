@@ -1681,5 +1681,5 @@ h1, h2, h3 {
 
 #bg:after {
 	background-image: radial-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), 
-					  url("../../images/overlay.png");
+					  url("../../images/bg.jpg");
 }
